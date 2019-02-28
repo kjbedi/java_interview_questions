@@ -15,6 +15,45 @@ class Main{
         t1.add(n4);
         t1.add(n7);
         t1.add(n3);
-        System.out.println(t1.root.left.left.left.left.data);
+        printPreorder(t1);
+    }
+
+    public static void printInorder(Tree t1){
+        inorder(t1.root);
+    }
+    public static void printPostorder(Tree t1){
+        postorder(t1.root);
+    }
+    public static void printPreorder(Tree t1){
+        preorder(t1.root);
+    }
+    public static void inorder(Node r){
+        if(r == null) return;
+        if(r.left!=null){
+            inorder(r.left);
+        }
+        System.out.println(r.data);
+        if(r.right!=null) inorder(r.right);
+    }
+
+    public static void postorder(Node r){
+        if(r == null) return;
+        if(r.left!=null){
+            inorder(r.left);
+        }
+        
+        if(r.right!=null) inorder(r.right);
+        System.out.println(r.data);
+    }
+
+    public static void preorder(Node r){
+        if(r == null) return;
+        System.out.println(r.data);
+        if(r.left!=null){
+            preorder(r.left);
+        }
+        
+        if(r.right!=null) inorder(r.right);
+        
     }
 }
