@@ -17,9 +17,9 @@ class Partition{
         int temp = pivot;
         arr[end] = arr[pIndex];
         arr[pIndex] = temp;
-        partition(arr, start, pIndex - 1);
-        partition(arr, pIndex + 1, end);
-        return arr; 
+        int []ar = partition(arr, start, pIndex - 1);
+        int ans[] = partition(ar, pIndex + 1, end);
+        return ans; 
     }
     public static void main(String args[]){
         int a [] = {9,2,5,0,8,5,7,4,4,0,7,1};

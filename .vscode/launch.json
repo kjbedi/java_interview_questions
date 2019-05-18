@@ -2,6 +2,42 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Queue",
+            "request": "launch",
+            "mainClass": "Queue"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Stack",
+            "request": "launch",
+            "mainClass": "Stack"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Dfs",
+            "request": "launch",
+            "mainClass": "Dfs"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MissingNum",
+            "request": "launch",
+            "mainClass": "MissingNum"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - main",
+            "request": "launch",
+            "mainClass": "main"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GCD",
+            "request": "launch",
+            "mainClass": "GCD"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Partition",
             "request": "launch",
             "mainClass": "Partition"
