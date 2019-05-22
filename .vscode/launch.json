@@ -2,6 +2,18 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Sort",
+            "request": "launch",
+            "mainClass": "Sort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Anagram",
+            "request": "launch",
+            "mainClass": "Anagram"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Queue",
             "request": "launch",
             "mainClass": "Queue"
